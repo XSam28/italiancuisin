@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        ::-webkit-scrollbar{
+            width: 0;
+        }
+
+        body, html{
+            height: 100%;
+
+        }
+        
+    </style>
+    <title>Tailwind</title>
+    
+</head>
+<body class=" bg-indigo">
+<!--head-->
+    <div class="bg-center bg-cover mb-[42px] h-full bg-fixed flex bg-no-repeat contrast-[.8]" style="background-image: url('/img/spaghetti.jpg');">
+        <div class="m-auto">
+            <h1 class="text-6xl sm:text-[120px] text-center leading-10 sm:leading-[100px] text-yellow-200 font-raleway font-black drop-shadow-2xl selection:bg-slate-400">La Dolce Vita</h1>
+            <p class="text-center font-semibold text-white selection:bg-slate-400">since 1960</p>
+        </div>
+
+    </div>
+
+
+    <!--body-->
+    <div class="container bg-slate-100 rounded-lg w-full sm:w-[800px] m-auto p-10 shadow-lg mb-10">
+        <div class="box">
+            <h1 class="font-raleway font-extrabold text-4xl sm:text-6xl text-center text-slate-600 drop-shadow-lg mb-8">Italian <span class="border-b-slate-600 border-b-2 sm:border-b-4 rounded-sm">Food.</span></h1>
+            <p class="font-raleway text-justify font-light indent-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maiores commodi optio error est suscipit et obcaecati repellendus ratione consequatur provident porro distinctio sed fugiat eligendi cum tempore explicabo placeat sapiente ipsum eos, blanditiis repellat. Vitae adipisci corporis explicabo molestiae placeat, neque veniam nam cumque rerum voluptas sunt dolor, obcaecati necessitatibus debitis autem voluptate non iste libero? Tempora maxime iusto earum quaerat, labore totam ratione accusamus ipsam aut et est repellat voluptatibus distinctio fuga laborum suscipit explicabo error expedita dolore quibusdam rerum, rem consectetur nobis ducimus! Facilis nihil velit, quos minima, eum facere, quasi natus provident ut dolorem rerum ducimus.</p>
+        </div>
+
+        <div>
+            <h1 class="text-center text-slate-600 drop-shadow-xl font-raleway font-extrabold text-3xl mt-10">Menu</h1>
+        
+        <div class="my-5 p-10 bg-indigo rounded-lg shadow-xl overflow-hidden">
+            <h3 class="font-raleway font-semibold text-3xl text-slate-600 contents">1. Gnocchi</h3>
+            <img class="h-40 w-60 object-cover rounded-lg hover:brightness-[.7] duration-300 sm:float-right my-4 sm:ml-5 hover:scale-105 m-auto" src="/img/Gnocchi.jpg">
+            <p class="font-raleway font-thin text-slate-600 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure sit alias natus fugiat ab temporibus nesciunt numquam vel vitae, distinctio sint mollitia, deserunt quis nihil doloribus, voluptatem rerum est perferendis cupiditate quos hic.</p>
+        </div>
+
+        <div class="my-5 p-10 bg-slate-600 rounded-lg shadow-xl overflow-hidden">
+            <h3 class="font-raleway font-semibold text-3xl text-slate-50 contents">2. Lasagna</h3>
+            <img class="h-40 w-60 object-cover rounded-lg hover:brightness-[.7] duration-300 sm:float-left my-4 sm:mr-5 hover:scale-105 m-auto" src="/img/lasagna.jpg">
+            <p class="font-raleway font-thin text-slate-50 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure sit alias natus fugiat ab temporibus nesciunt numquam vel vitae, distinctio sint mollitia, deserunt quis nihil doloribus, voluptatem rerum est perferendis cupiditate quos hic.</p>
+        </div>
+
+        <div class="my-5 p-10 bg-indigo rounded-lg shadow-xl overflow-hidden">
+            <h3 class="font-raleway font-semibold text-2xl sm:text-3xl text-slate-600 contents">3. Panzerotto Fritto</h3>
+            <img class="h-40 w-60 object-cover rounded-lg hover:brightness-[.7] duration-300 sm:float-right my-4 sm:ml-5 hover:scale-105 m-auto" src="/img/Panzerotto fritto.jpg">
+            <p class="font-raleway font-thin text-slate-600 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure sit alias natus fugiat ab temporibus nesciunt numquam vel vitae, distinctio sint mollitia, deserunt quis nihil doloribus, voluptatem rerum est perferendis cupiditate quos hic.</p>
+        </div>
+
+        <div class="my-5 p-10 bg-slate-600 rounded-lg shadow-xl overflow-hidden">
+            <h3 class="font-raleway font-semibold text-3xl text-slate-50 contents">4. Pasta</h3>
+            <img class="h-40 w-60 object-cover rounded-lg hover:brightness-[.7] duration-300 sm:float-left my-4 sm:mr-5 hover:scale-105 m-auto" src="/img/pasta.jpg">
+            <p class="font-raleway font-thin text-slate-50 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure sit alias natus fugiat ab temporibus nesciunt numquam vel vitae, distinctio sint mollitia, deserunt quis nihil doloribus, voluptatem rerum est perferendis cupiditate quos hic.</p>
+        </div>
+
+        <div class="my-5 p-10 bg-indigo rounded-lg shadow-xl overflow-hidden">
+            <h3 class="font-raleway font-semibold text-3xl text-slate-600 contents">5. Pizza</h3>
+            <img class="h-40 w-60 object-cover rounded-lg hover:brightness-[.7] duration-300 sm:float-right my-4 sm:ml-5 hover:scale-105 m-auto" src="/img/pizza.jpg">
+            <p class="font-raleway font-thin text-slate-600 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure sit alias natus fugiat ab temporibus nesciunt numquam vel vitae, distinctio sint mollitia, deserunt quis nihil doloribus, voluptatem rerum est perferendis cupiditate quos hic.</p>
+        </div>
+
+        <div class="my-5 p-10 bg-slate-600 rounded-lg shadow-xl overflow-hidden">
+            <h3 class="font-raleway font-semibold text-3xl text-slate-50 contents">6. Risotto</h3>
+            <img class="h-40 w-60 object-cover rounded-lg hover:brightness-[.7] duration-300 sm:float-left my-4 sm:mr-5 hover:scale-105 m-auto" src="/img/Risotto.jpg">
+            <p class="font-raleway font-thin text-slate-50 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure sit alias natus fugiat ab temporibus nesciunt numquam vel vitae, distinctio sint mollitia, deserunt quis nihil doloribus, voluptatem rerum est perferendis cupiditate quos hic.</p>
+        </div>
+
+        <div class="my-5 p-10 bg-indigo rounded-lg shadow-xl overflow-hidden">
+            <h3 class="font-raleway font-semibold text-3xl text-slate-600 contents">7. Spaghetti</h3>
+            <img class="h-40 w-60 object-cover rounded-lg hover:brightness-[.7] duration-300 sm:float-right my-4 sm:ml-5 hover:scale-105 m-auto" src="/img/spaghetti.jpg">
+            <p class="font-raleway font-thin text-slate-600 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure sit alias natus fugiat ab temporibus nesciunt numquam vel vitae, distinctio sint mollitia, deserunt quis nihil doloribus, voluptatem rerum est perferendis cupiditate quos hic.</p>
+        </div>
+
+        <div class="my-5 p-10 bg-slate-600 rounded-lg shadow-xl overflow-hidden">
+            <h3 class="font-raleway font-semibold text-3xl text-slate-50 contents">8. Negroni</h3>
+            <img class="h-40 w-60 object-cover rounded-lg hover:brightness-[.7] duration-300 sm:float-left my-4 sm:mr-5 hover:scale-105 m-auto" src="/img/negroni.jpg">
+            <p class="font-raleway font-thin text-slate-50 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure sit alias natus fugiat ab temporibus nesciunt numquam vel vitae, distinctio sint mollitia, deserunt quis nihil doloribus, voluptatem rerum est perferendis cupiditate quos hic.</p>
+        </div>
+
+        <div class="text-center pt-10 pb-5">
+            <p class="font-raleway text-lg italic text-slate-500">" Lorem, ipsum dolor sit amet consectetur adipisicing elit. "</p>
+        </div>
+
+
+    </div>
+    </div>
+    
+    <!--ORDER-->
+    <div class="container bg-slate-100 rounded-lg w-full sm:w-[800px] m-auto p-10 shadow-lg">
+        <h3 class="text-center font-raleway text-xl font-black text-slate-600 p-5 pb-0">ORDER HERE</h3>
+        <img src="/img/arrow.png" class="m-auto mb-2 animate-bounce">
+        <div class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-raleway font-normal p-5">
+            <form action="">
+                    <input type="name" placeholder="Name" class="w-full p-1 rounded-sm border shadow-sm block mb-2 placeholder:text-center placeholder:text-xs focus:outline-none focus:ring-1">
+                    <input type="food" placeholder="Food" class="w-full p-1 rounded-sm border shadow-sm block mb-2 placeholder:text-center placeholder:text-xs focus:outline-none focus:ring-1">
+                    <input type="address" placeholder="Address" class="w-full p-1 rounded-sm border shadow-sm block mb-2 placeholder:text-center placeholder:text-xs focus:outline-none focus:ring-1">
+                    <input type="email" placeholder="Email" class="w-full p-1 rounded-sm border shadow-sm block mb-2 placeholder:text-center placeholder:text-xs focus:outline-none focus:ring-1 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700">
+            </form>
+            <a href="#"><button class="bg-blue-500 w-[20%] text-white text-[12px] p-1 rounded-xl border border-blue-300 shadow-md">Input</button></a>
+        </div>
+    </div>
+
+</body>
+</html>
